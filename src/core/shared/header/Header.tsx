@@ -16,7 +16,7 @@ export const Header = () => {
             alt="Logo goDrive"
             height={130}
             style={{
-              objectFit: 'contain'
+              objectFit: 'cover'
             }}
             className="mt-2"
           />
