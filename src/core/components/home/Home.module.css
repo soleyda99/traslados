@@ -22,7 +22,7 @@
 @media (max-width: 576px) {
   .carouselText {
     font-size: 35px;
-    left: 45%;
-    margin: 40px;
+    margin: 50px 50px 0 0px;
+    text-align: center;
   }
 }
