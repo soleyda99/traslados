@@ -25,7 +25,7 @@ export const Header = () => {
         <Nav className="ms-auto">
           <Nav.Link href="#home">Inicio</Nav.Link>
           <Nav.Link href="#servicios">Servicios</Nav.Link>
-          <Nav.Link href="#metodos-de-pago">Métodos pagos</Nav.Link>
+          <Nav.Link href="#metodos-de-pago">Pagos</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

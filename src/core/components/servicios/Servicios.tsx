@@ -56,7 +56,7 @@ const Servicios = () => {
         <h1 style={{ fontSize: '30px', color: '#fab93d' }} className="mt-5">
           - Servicios de traslados
         </h1>
-        <p className="mb-4" style={{ fontSize: '20px', color: '#fff' }}>
+        <p className="mb-4" style={{ fontSize: '20px' }}>
           Ofrecemos servicios exclusivos para satisfacer todas tus necesidades
           de transporte, ya sea para viajes de negocios o personales.
         </p>

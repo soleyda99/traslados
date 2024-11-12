@@ -18,3 +18,9 @@
   width: 100%;
   margin: 50px;
 }
+
+@media (max-width: 576px) {
+  .carouselText {
+    font-size: 35px;
+  }
+}

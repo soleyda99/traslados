@@ -42,9 +42,7 @@ export const Footer = () => {
               />
             </Col>
             <Col className="d-flex align-items-end justify-content-center">
-              <small style={{ color: '#fff' }}>
-                © 2024 Go Drive. Todos los derechos reservados.
-              </small>
+              <small style={{ color: '#fff' }}>© 2024 Go Drive.</small>
             </Col>
 
             <Col className="d-flex align-items-center justify-content-center ms-1 flex-column">
