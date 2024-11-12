@@ -14,7 +14,6 @@ export const Header = () => {
           <img
             src={logo}
             alt="Logo goDrive"
-            width={150}
             height={130}
             style={{
               objectFit: 'contain'
