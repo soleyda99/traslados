@@ -1,0 +1,19 @@
+.testimonialCard {
+  box-shadow: 0 4px 8px rgba(216, 215, 215, 0.785);
+  border-radius: 15px;
+  transition: transform 0.2s;
+  min-height: 315px;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  border: 0;
+}
+
+.svg {
+  background-color: #fab93d;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
