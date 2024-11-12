@@ -68,7 +68,10 @@ const Servicios = () => {
                   <div className={`${styles.svg} mb-3`}>
                     <img src={imgSrc} alt={alt} width={60} height={60} />
                   </div>
-                  <Card.Text className="d-flex flex-column align-items-center text-center">
+                  <Card.Text
+                    as="div"
+                    className="d-flex flex-column align-items-center text-center"
+                  >
                     <Card.Title>{title}</Card.Title>
                     <span>{description}</span>
                   </Card.Text>
