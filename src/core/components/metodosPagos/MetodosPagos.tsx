@@ -92,7 +92,7 @@ export const MetodosPagos = () => {
           md={4}
           className="d-flex justify-content-center align-items-center"
         >
-          <Image src={binance} roundedCircle width={230} height={200} />
+          <Image src={binance} roundedCircle width={210} height={200} />
         </Col>
       </Row>
     </Container>

@@ -41,13 +41,10 @@ export const Footer = () => {
                 style={{ objectFit: 'contain' }}
               />
             </Col>
-            <Col className="d-flex align-items-end justify-content-center">
-              <small style={{ color: '#fff' }}>© 2024 Go Drive.</small>
-            </Col>
 
-            <Col className="d-flex align-items-center justify-content-center ms-1 flex-column">
+            <Col className="d-flex align-items-end justify-content-center  flex-column">
               <p className="text-white fw-bold text-center">CONTACTO</p>
-              <div className="d-flex flex-row justify-content-center align-items-center">
+              <div className="d-flex flex-row justify-content-center align-items-center me-1">
                 <div className={`${styles.svg} me-1`}>
                   <a
                     href="https://www.instagram.com/godrive.ar"
@@ -64,7 +61,7 @@ export const Footer = () => {
                   </a>
                 </div>
 
-                <div className={`${styles.svg} ms-1`}>
+                <div className={`${styles.svg} ms-1 `}>
                   <a
                     href="https://api.whatsapp.com/send/?phone=+541132533816&text=Hola, quisiera realizar una reserva&type=phone_number&app_absent=0"
                     target="_blank"
@@ -80,6 +77,13 @@ export const Footer = () => {
                   </a>
                 </div>
               </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="d-flex align-items-end justify-content-center">
+              <small style={{ color: '#fff' }}>
+                © 2024 Go Drive. Todos los derechos reservados
+              </small>
             </Col>
           </Row>
         </Container>

@@ -22,5 +22,6 @@
 @media (max-width: 576px) {
   .carouselText {
     font-size: 35px;
+    left: 45%;
   }
 }
