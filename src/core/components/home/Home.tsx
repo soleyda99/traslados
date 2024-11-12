@@ -59,8 +59,8 @@ const Home = () => {
             }}
           />
           <div className={styles.carouselText}>
-            Servicio de traslados privados desde{' '}
-            <span style={{ color: '#fab93d' }}>cualquier lugar de BA</span>
+            Servicio de traslados privados desde <br />
+            <span style={{ color: '#fab93d' }}>cualquier punto</span>
           </div>
         </div>
       </Carousel.Item>
