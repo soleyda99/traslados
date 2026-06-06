@@ -1,5 +1,4 @@
 import { type ReactNode } from 'react';
-import carro from '../../../assets/img/carro.png';
 import styles from './ValoresMarquee.module.css';
 
 type Valor = {
