@@ -158,7 +158,7 @@ export const MetodosPagos = () => {
             </header>
           </ScrollReveal>
 
-          <div className={`${styles.cardsGrid} ${styles.cardsGridCurrencies} mb-5`}>
+          <div className={`${styles.cardsGrid} mb-5`}>
             {currencies.map((currency, index) => (
               <div className={styles.cardItem} key={currency.title}>
                 <PaymentCard {...currency} delay={150 + index * 100} />
@@ -166,7 +166,7 @@ export const MetodosPagos = () => {
             ))}
           </div>
 
-          <div className={`${styles.cardsGrid} ${styles.cardsGridDigital} mb-5`}>
+          <div className={`${styles.cardsGrid} mb-5`}>
             {digitalPayments.map((payment, index) => (
               <div className={styles.cardItem} key={payment.title}>
                 <PaymentCard {...payment} delay={150 + index * 100} />

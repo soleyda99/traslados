@@ -29,9 +29,6 @@
 	animation: scrollLeft 35s linear infinite;
 }
 
-.marquee:hover {
-	animation-play-state: paused;
-}
 
 .item {
 	flex: 0 0 auto;
