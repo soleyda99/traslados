@@ -1,16 +1,139 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/logo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Go Drive</title>
-</head>
+		<!-- SEO Principal -->
+		<title>Go Drive | Traslados al Aeropuerto, Mascotas y Paquetería en CABA y Buenos Aires</title>
+		<meta
+			name="description"
+			content="Go Drive: traslados privados al aeropuerto Ezeiza y Aeroparque, traslado de mascotas, servicio de paquetería y mensajería express en CABA y Gran Buenos Aires. Remis ejecutivo 24hs. ¡Reservá ahora!"
+		/>
+		<meta
+			name="keywords"
+			content="traslados al aeropuerto Buenos Aires, transfer aeropuerto Ezeiza, transfer Aeroparque Jorge Newbery, remis al aeropuerto CABA, transporte aeropuerto Buenos Aires, traslado de mascotas Buenos Aires, transporte de mascotas CABA, traslado de perros Buenos Aires, traslado de gatos Buenos Aires, remis para mascotas, servicio de paquetería Buenos Aires, mensajería express CABA, cadetería puerta a puerta Buenos Aires, envío de paquetes Buenos Aires, cadete CABA, mensajería a domicilio, envíos express GBA, traslados corporativos Buenos Aires, remis ejecutivo CABA, transporte privado aeropuerto, transfer privado Buenos Aires, remise ezeiza, remis ezeiza, traslados 24 horas Buenos Aires"
+		/>
+		<meta name="author" content="Go Drive Agencia de Traslados y Envíos" />
+		<meta name="robots" content="index, follow" />
+		<meta name="googlebot" content="index, follow" />
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
+		<!-- Geo-targeting Buenos Aires / CABA -->
+		<meta name="geo.region" content="AR-C" />
+		<meta name="geo.placename" content="Ciudad Autónoma de Buenos Aires" />
+		<meta name="geo.position" content="-34.6037;-58.3816" />
+		<meta name="ICBM" content="-34.6037, -58.3816" />
 
+		<!-- Open Graph -->
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="es_AR" />
+		<meta property="og:site_name" content="Go Drive Agencia de Traslados y Envíos" />
+		<meta
+			property="og:title"
+			content="Go Drive | Traslados al Aeropuerto, Mascotas y Paquetería en Buenos Aires"
+		/>
+		<meta
+			property="og:description"
+			content="Traslados privados al aeropuerto Ezeiza y Aeroparque, traslado de mascotas y paquetería express en CABA y GBA. Remis ejecutivo disponible 24hs."
+		/>
+		<meta property="og:image" content="/logo.png" />
+		<meta property="og:url" content="https://www.instagram.com/godrive.ar/" />
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:title"
+			content="Go Drive | Traslados al Aeropuerto, Mascotas y Paquetería en Buenos Aires"
+		/>
+		<meta
+			name="twitter:description"
+			content="Traslados privados al aeropuerto Ezeiza y Aeroparque, traslado de mascotas y paquetería express en CABA y GBA. Remis ejecutivo 24hs."
+		/>
+		<meta name="twitter:image" content="/logo.png" />
+
+		<!-- Schema.org JSON-LD: LocalBusiness -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Go Drive Agencia de Traslados y Envíos",
+			"description": "Traslados privados al aeropuerto Ezeiza y Aeroparque Jorge Newbery, traslado de mascotas y servicio de paquetería y mensajería express en CABA y Gran Buenos Aires. Disponibles las 24 horas, los 365 días del año.",
+			"telephone": "+541132533816",
+			"url": "https://www.instagram.com/godrive.ar/",
+			"sameAs": [
+				"https://www.instagram.com/godrive.ar/"
+			],
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Ciudad Autónoma de Buenos Aires",
+				"addressRegion": "Buenos Aires",
+				"addressCountry": "AR"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": -34.6037,
+				"longitude": -58.3816
+			},
+			"openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+				],
+				"opens": "00:00",
+				"closes": "23:59"
+			},
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "+541132533816",
+				"contactType": "customer service",
+				"availableLanguage": ["Spanish"],
+				"contactOption": "TollFree"
+			},
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Servicios de traslado y envíos en Buenos Aires",
+				"itemListElement": [
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Traslados al aeropuerto Buenos Aires",
+							"description": "Transfer privado desde y hacia el aeropuerto Internacional de Ezeiza (EZE) y Aeroparque Jorge Newbery (AEP). Remis ejecutivo con seguimiento de vuelo en tiempo real."
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Traslado de mascotas Buenos Aires",
+							"description": "Transporte seguro y cómodo para perros, gatos y otras mascotas en CABA y Gran Buenos Aires. Conductores capacitados y vehículos adaptados."
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Servicio de paquetería y mensajería express CABA",
+							"description": "Mensajería y cadetería puerta a puerta para empresas y particulares. Envíos express en CABA y Gran Buenos Aires."
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Traslados corporativos y particulares",
+							"description": "Remis ejecutivo para empresas y particulares con conductores experimentados en Buenos Aires."
+						}
+					}
+				]
+			}
+		}
+		</script>
+	</head>
+
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
 </html>

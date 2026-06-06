@@ -3,37 +3,15 @@ import logo from '../../../assets/img/logo.png';
 import whatsapp from '../../../assets/img/whatsapp.png';
 import instagram from '../../../assets/img/instagram.png';
 import styles from './Footer.module.css';
-import { Helmet } from 'react-helmet';
 
 export const Footer = () => {
   return (
-    <>
-      <Helmet>
-        <title>Go Drive - Contacto</title>
-        <meta
-          name="description"
-          content="Contáctanos a través de WhatsApp o Instagram. Go Drive - Alquiler de autos."
-        />
-        <meta
-          name="keywords"
-          content="alquiler de autos, contacto Go Drive, WhatsApp, Instagram"
-        />
-        <meta property="og:title" content="Go Drive - Contacto" />
-        <meta
-          property="og:description"
-          content="Contáctanos a través de WhatsApp o Instagram. Go Drive - Alquiler de autos."
-        />
-        <meta property="og:image" content={logo} />
-        <meta property="og:url" content="https://www.godrive.com/contacto" />
-        <meta name="robots" content="index, follow" />
-      </Helmet>
-
-      <footer className={`${styles.footer}`}>
+    <footer className={`${styles.footer}`}>
         <Container>
           <Row>
             <Col>
               <img
-                alt="Logo de Go Drive, empresa de alquiler de autos"
+                alt="Logo de Go Drive Agencia de Traslados y Envíos, traslados de mascotas"
                 src={logo}
                 width="155"
                 height="150"
@@ -50,11 +28,11 @@ export const Footer = () => {
                     href="https://www.instagram.com/godrive.ar"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Ir al Instagram de Go Drive"
+                    aria-label="Ir al Instagram de Go Drive Agencia de Traslados y Envíos"
                   >
                     <img
                       src={instagram}
-                      alt="Icono de Instagram de Go Drive"
+                      alt="Icono de Instagram de Go Drive Agencia de Traslados y Envíos"
                       width={40}
                       height={40}
                     />
@@ -66,11 +44,11 @@ export const Footer = () => {
                     href="https://api.whatsapp.com/send/?phone=+541132533816&text=Hola, quisiera realizar una reserva&type=phone_number&app_absent=0"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Contactar por WhatsApp Go Drive"
+                    aria-label="Contactar por WhatsApp Go Drive Agencia de Traslados y Envíos"
                   >
                     <img
                       src={whatsapp}
-                      alt="Icono de WhatsApp de Go Drive"
+                      alt="Icono de WhatsApp de Go Drive Agencia de Traslados y Envíos"
                       width={40}
                       height={40}
                     />
@@ -82,12 +60,11 @@ export const Footer = () => {
           <Row>
             <Col className="d-flex align-items-end justify-content-center">
               <small style={{ color: '#fff' }}>
-                © 2024 Go Drive. Todos los derechos reservados
+                © 2017 Go Drive Agencia de Traslados y Envíos. Todos los derechos reservados
               </small>
             </Col>
           </Row>
         </Container>
-      </footer>
-    </>
+    </footer>
   );
 };
